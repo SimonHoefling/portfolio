@@ -1,7 +1,13 @@
+/* Google font Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
 }
 
 .banner-container {
@@ -43,6 +49,7 @@
 }
 .link-text {
   margin: 0 0 0 5px;
+  text-decoration: none;
 }
 .linkedin-logo,
 .github-logo {
@@ -64,11 +71,9 @@
   cursor: pointer;
   transition: 0.3s;
 }
-
 #myCV-image:hover {
   opacity: 0.6;
 }
-
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -83,7 +88,6 @@
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
-
 /* Modal Content (Image) */
 .modal-content {
   margin: auto;
@@ -91,7 +95,6 @@
   width: 80%;
   max-width: 700px;
 }
-
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
@@ -103,18 +106,15 @@
   padding: 10px 0;
   height: 150px;
 }
-
 /* Add Animation - Zoom in the Modal */
 .modal-content, #caption {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-
 @keyframes zoom {
   from {transform:scale(0)}
   to {transform:scale(1)}
 }
-
 /* The Close Button */
 .close {
   position: absolute;
@@ -125,14 +125,12 @@
   font-weight: bold;
   transition: 0.3s;
 }
-
 .close:hover,
 .close:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
 }
-
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .modal-content {
@@ -166,11 +164,15 @@
   margin: 5px 0 5px 0;
 }
 .card {
-  height: 200px;
+  height: 260px;
   border-radius: 4px;
+  margin: 5px 0 5px 0;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.card-link {
+  text-decoration: none;
 }
 .project-image {
   width: 100%;
