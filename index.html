@@ -29,7 +29,17 @@
         <p class="link-text">@simonhoefling</p>
       </div>
       <h2 class="cv">CV</h2>
-      <img class="cv-image" src="images/SIMON HOEFLING - Fullstack Resume PDF.png" alt="CV Simon Hoefling">
+      <!-- Trigger the Modal -->
+      <img id="myCV-image" src="/images/SIMON HOEFLING - Fullstack Resume PDF.png" alt="CV Simon Hoefling">
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
     </section>
 
     <section class="right">
@@ -61,5 +71,6 @@
     </section>
   </div>
 
+  <script src="index.js"></script>
 </body>
 </html>
