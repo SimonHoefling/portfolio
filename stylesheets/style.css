@@ -56,14 +56,15 @@ body {
 .cv {
   background-color: burlywood;
   padding: 5px;
+  font-weight: bold;
 }
 #myCV-image {
   width: 100%;
   max-width: 500px;
   margin: 5px 0 5px 0;
 }
-/* Style the Image Used to Trigger the Modal */
 #myCV-image {
+  /* Style the Image Used to Trigger the Modal */
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -71,8 +72,8 @@ body {
 #myCV-image:hover {
   opacity: 0.6;
 }
-/* The Modal (background) */
 .modal {
+  /* The Modal (background) */
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -85,15 +86,15 @@ body {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
-/* Modal Content (Image) */
 .modal-content {
+  /* Modal Content (Image) */
   margin: auto;
   display: block;
   width: 80%;
   max-width: 700px;
 }
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
   margin: auto;
   display: block;
   width: 80%;
@@ -103,8 +104,8 @@ body {
   padding: 10px 0;
   height: 150px;
 }
-/* Add Animation - Zoom in the Modal */
 .modal-content, #caption {
+  /* Add Animation - Zoom in the Modal */
   animation-name: zoom;
   animation-duration: 0.6s;
 }
@@ -112,8 +113,8 @@ body {
   from {transform:scale(0)}
   to {transform:scale(1)}
 }
-/* The Close Button */
 .close {
+  /* The Close Button */
   position: absolute;
   top: 15px;
   right: 35px;
@@ -128,8 +129,8 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-/* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
+  /* 100% Image Width on Smaller Screens */
   .modal-content {
     width: 100%;
   }
@@ -145,9 +146,11 @@ body {
 .hobbies {
   background-color: burlywood;
   padding: 5px;
+  font-weight: bold;
 }
 .description {
   margin: 5px 0 5px 0;
+  font-size: 20px;
 }
 .stack-images {
   margin: 5px 0 5px 0;
@@ -193,4 +196,52 @@ body {
 .footer-container {
   background-color: burlywood;
   text-align: center;
+}
+
+/* ############################################################ */
+
+/* Breakpoint for Phonescreen */
+@media screen and (max-width: 480px) {
+  .banner-container {
+    height: 120px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  /* ---Content left side--- */
+  .title {
+    font-size: 16px;
+    text-align: center;
+  }
+  .link-text {
+    font-size: 12px;
+  }
+  .cv {
+    font-size: 16px;
+  }
+  /* ---Content right side--- */
+  .about-me,
+  .tech-stack,
+  .projects,
+  .hobbies {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .card {
+    height: 120px;
+  }
+  .font-awesome-paper {
+    height: 70%;
+  }
+  .app-name {
+    font-size: 10px;
+  }
+  .footer-container {
+    margin-bottom: 0;
+  }
+  .footer {
+    font-size: 16px;
+  }
 }
