@@ -239,10 +239,13 @@ body {
     height: 120px;
   }
   .font-awesome-paper {
-    height: 70%;
+    height: 60%;
+    margin: 3px;
   }
   .app-name {
     font-size: 10px;
+    margin: auto;
+    width: 75%;
   }
   .footer-container {
     margin-bottom: 0;
