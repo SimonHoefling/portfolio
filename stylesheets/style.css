@@ -182,14 +182,14 @@ body {
 .app-name-container {
   height: 25%;
   display:flex;
-  align-items: center;
 }
 .font-awesome-paper {
-  height: 80%;
+  height: 70%;
   margin: 5px;
 }
 .app-name {
-  margin: 0 5px 0 5px;
+  margin: auto;
+  width: 75%;
 }
 
 /* ---Footer container--- */
@@ -214,10 +214,15 @@ body {
     text-align: center;
   }
   .link-text {
-    font-size: 12px;
+    font-size: 10px;
+  }
+  .linkedin-logo,
+  .github-logo {
+    width: 12%;
   }
   .cv {
     font-size: 16px;
+    padding: 2px;
   }
   /* ---Content right side--- */
   .about-me,
@@ -225,6 +230,7 @@ body {
   .projects,
   .hobbies {
     font-size: 16px;
+    padding: 2px;
   }
   .description {
     font-size: 12px;
