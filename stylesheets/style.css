@@ -250,7 +250,7 @@ body {
     height: 120px;
   }
   .name {
-    font-size: 20px;
+    font-size: 16px;
   }
   /* ---Content left side--- */
   .title {
@@ -305,9 +305,8 @@ body {
     padding: 0;
     object-fit: cover;
   }
-  .repo-link {
-    text-decoration: none;
-    color: #000000;
+  .image-text {
+    display: none;
   }
   .repository-container {
     display: flex;
