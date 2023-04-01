@@ -316,13 +316,13 @@ body {
     border-radius: 0 0 2px 2px;
   }
   .fontawesome-icon {
-    height: 22px;
-    width: 22px;
+    height: 18px;
+    width: 18px;
     margin-left: 5px;
   }
   .git-repo-link {
     text-decoration: none;
-    margin-left: 5px;
+    margin-left: 3px;
     font-size: 8px;
     color: #000000;
   }
