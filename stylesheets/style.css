@@ -56,9 +56,10 @@ body {
   margin: 10px 0 10px 0;
 }
 .cv {
-  background-color: burlywood;
+  background-color: rgb(218, 184, 140);
   padding: 5px;
   font-weight: bold;
+  margin: 5px 0 5px 0;
 }
 #myCV-image {
   width: 100%;
@@ -146,7 +147,7 @@ body {
 .tech-stack,
 .projects,
 .hobbies {
-  background-color: burlywood;
+  background-color: rgb(218, 184, 140);
   padding: 5px;
   font-weight: bold;
 }
@@ -238,7 +239,7 @@ body {
 
 /* ---Footer container--- */
 .footer-container {
-  background-color: burlywood;
+  background-color: rgb(218, 184, 140);
   text-align: center;
 }
 
