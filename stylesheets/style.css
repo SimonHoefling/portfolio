@@ -229,12 +229,15 @@ body {
   align-items: center;
 }
 .project-name {
-  margin: 5px 0 0 10px;
+  margin: 10px 0 0 15px;
+  padding-bottom: 4px;
+  width: 100px;
+  border-bottom: 1px solid rgb(92, 91, 91);
 }
 .fontawesome-icon {
   height: 36px;
   width: 36px;
-  margin: 5px 0 0 10px;
+  margin: 5px 0 0 15px;
 }
 .git-repo-link {
   text-decoration: none;
@@ -331,6 +334,7 @@ body {
   .project-name {
     margin: 3px 0 0 5px;
     font-size: 8px;
+    width: 40px;
     padding: 0;
   }
   .fontawesome-icon {
