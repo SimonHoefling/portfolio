@@ -162,11 +162,12 @@ body {
 .projects-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 15%;
+  grid-row-gap: 30px;
+  grid-column-gap: 15%;
   margin: 5px 0 5px 0;
 }
 .card {
-  height: 280px;
+  height: 300px;
   border-radius: 2px;
   margin-top: 5px;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -190,7 +191,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  object-fit: cover;
+  object-fit: fill;
 }
 .image-container:hover {
   cursor: pointer;
@@ -228,11 +229,22 @@ body {
   display: flex;
   align-items: center;
 }
+.project-name-container {
+  align-items: center;
+  display: flex;
+}
 .project-name {
   margin: 10px 0 0 15px;
   padding-bottom: 4px;
-  width: 100px;
   border-bottom: 1px solid rgb(92, 91, 91);
+}
+.stack-icon {
+  margin: 0 10px 0 10px;
+  height: 32px;
+}
+.stack-icon-bootstrap {
+  margin: 0 10px 0 10px;
+  height: 26px;
 }
 .fontawesome-icon {
   height: 36px;
@@ -294,8 +306,9 @@ body {
     font-size: 12px;
   }
   .projects-container {
-    grid-gap: 6%;
     margin: 5px 0 5px 0;
+    grid-row-gap: 10px;
+    grid-column-gap: 6%;
   }
   .card {
     height: 100px;
@@ -331,11 +344,22 @@ body {
     display: flex;
     align-items: center;
   }
+  .project-name-container {
+    align-items: center;
+    display: flex;
+  }
   .project-name {
     margin: 3px 0 0 5px;
     font-size: 8px;
-    width: 40px;
     padding: 0;
+  }
+  .stack-icon {
+    margin: 0 2px 0 2px;
+    height: 10px;
+  }
+  .stack-icon-bootstrap {
+    margin: 0 2px 0 2px;
+    height: 8px;
   }
   .fontawesome-icon {
     height: 10px;
@@ -347,12 +371,6 @@ body {
     margin-left: 3px;
     font-size: 6px;
     color: #000000;
-  }
-  .footer-container {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
   }
   .footer {
     font-size: 16px;
